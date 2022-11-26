@@ -1,0 +1,21 @@
+<%-include("partials/header")-%>
+
+<div class="box1">
+  <p class = "re">Guess The Number</p>
+  
+  <form class="form" method="post">
+    <div class="group">
+      <label id = "lab">Enter A Number : </label>
+      <input id = "inp" type="number" name="num">
+      <br></br>
+      <button id = "btn3" class="button" type="submit" name="num">Submit</button>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+    <p id="gue1" class = "re"><%=str%> </p>
+    <script type = "text/javascript" src = "GUESS_NUMBER.js"></script>
+  </form>
+</div>
+
+<%-include("partials/footer")-%>
